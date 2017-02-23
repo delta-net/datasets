@@ -11,11 +11,11 @@ For any questions, feel also free to contact us.
 
 ## Data Sets
 
-Download: [NSDI'17 data set][data-set-nsdi-17]
+Our [NSDI'17 data set][data-set-nsdi-17] comprise several hundred million IP prefix
+rules generated using topologies and BGP updates from real-world deployed networks,
+including a globally deployed [ONOS][onos] software-defined networking application,
+called [SDN-IP][sdn-ip].
 
-For our NSDI'17 experiments, we use [SDN-IP][sdn-ip], a globally deployed [ONOS][onos]
-software-defined networking (SDN) application, and several hundred million IP prefix
-rules generated using topologies and BGP updates from real-world deployed networks.
 Our experiments show that Delta-net checks a rule insertion and removal in tens of
 microseconds on average, a more than 10X improvement over the state-of-the-art. We
 also show that Delta-net eliminates an inherent bottleneck in the state-of-the-art
@@ -27,12 +27,14 @@ that restricts its use in answering Datalog-style "what if" queries.
 
 ## Publications
 
+```
 @inproceedings{HKP2017,
  author = {Horn, Alex and Kheradmand, Ali and Prasad, Mukul R.},
  title = {Delta-net: Real-time Network Verification Using Atoms},
  booktitle = {NSDI},
  year = {2017},
 }
+```
 
 ## Notice
 
