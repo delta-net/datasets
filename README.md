@@ -14,7 +14,9 @@ For any questions, feel also free to contact us.
 Our [NSDI'17 data set][data-set-nsdi-17] comprise several hundred million IP prefix
 rules generated using topologies and BGP updates from real-world deployed networks,
 including a globally deployed [ONOS][onos] software-defined networking application,
-called [SDN-IP][sdn-ip].
+called [SDN-IP][sdn-ip]. These data sets are organized as text files in which line
+denotes an insertion or removal of a rule. The format of such lines is explained
+in a short [manual][manual] that describes Delta-net's interface.
 
 Our experiments show that Delta-net checks a rule insertion and removal in tens of
 microseconds on average, a more than 10X improvement over the state-of-the-art. We
@@ -24,6 +26,7 @@ that restricts its use in answering Datalog-style "what if" queries.
 [sdn-ip]: https://wiki.onosproject.org/display/ONOS/SDN-IP+Architecture
 [onos]: http://onosproject.org/
 [data-set-nsdi-17]: https://mega.nz/#!WgYBSZqC!pruWLWKse4KA60Mb35p4CE2eaJ-d1zyX4PkaO2PNWA0
+[manual]: ./Delta-net_Interface.pdf
 
 ## Publications
 
