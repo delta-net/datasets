@@ -1,6 +1,6 @@
 # Delta-net
 
-Delta-net is tool that makes it possible to detect and prevent certain network
+Delta-net is a tool that makes it possible to detect and prevent certain network
 outages before they occur. For this, Delta-net analyzes changes to the data plane
 in real-time and incrementally maintains flow information of every packet in the
 entire network. In our NSDI'17 paper, we propose the first provably quasi-linear
