@@ -23,9 +23,12 @@ microseconds on average, a more than 10X improvement over the state-of-the-art. 
 also show that Delta-net eliminates an inherent bottleneck in the state-of-the-art
 that restricts its use in answering Datalog-style "what if" queries.
 
+In our ICNP paper (see info below), we generalized Delta-net's lattice-theoretical
+analysis to handle multi-dimensional match conditions, e.g., ip-table rules.
+
 [sdn-ip]: https://wiki.onosproject.org/display/ONOS/SDN-IP+Architecture
 [onos]: http://onosproject.org/
-[data-set-nsdi-17]: https://mega.nz/#!WgYBSZqC!pruWLWKse4KA60Mb35p4CE2eaJ-d1zyX4PkaO2PNWA0
+[data-set-nsdi-17]: http://fsl.cs.illinois.edu/kheradmand/delta-net/deltanet-NSDI17-dataset.tar.gz
 [manual]: ./Delta-net_Interface.pdf
 
 ## Publications
@@ -36,6 +39,12 @@ that restricts its use in answering Datalog-style "what if" queries.
  title = {Delta-net: Real-time Network Verification Using Atoms},
  booktitle = {NSDI},
  year = {2017},
+}
+@inproceedings{HKP2019,
+ author = {Horn, Alex and Kheradmand, Ali and Prasad, Mukul R.},
+ title = {A Precise and Expressive Lattice-theoretical Framework for Efficient Network Verification},
+ booktitle = {ICNP},
+ year = {2019},
 }
 ```
 
