@@ -28,7 +28,7 @@ analysis to handle multi-dimensional match conditions, e.g., ip-table rules.
 
 [sdn-ip]: https://wiki.onosproject.org/display/ONOS/SDN-IP+Architecture
 [onos]: http://onosproject.org/
-[data-set-nsdi-17]: http://fsl.cs.illinois.edu/kheradmand/delta-net/deltanet-NSDI17-dataset.tar.gz
+[data-set-nsdi-17]: https://www.kaggle.com/alikherad/deltanet-nsdi17-dataset
 [manual]: ./Delta-net_Interface.pdf
 
 ## Publications
